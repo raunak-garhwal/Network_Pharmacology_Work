@@ -35,7 +35,7 @@ class IMPPATScraper:
         }
 
         try:
-            r = self.session.post(self.url, data=payload, headers=self.headers, timeout=10)
+            r = self.session.post(self.url, data=payload, headers=self.headers, timeout=25)
             r.raise_for_status()
         except requests.RequestException as e:
             print(f"❌ Network error for {plant_name}: {e}")

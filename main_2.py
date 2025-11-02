@@ -6,7 +6,7 @@ import time
 from requests.adapters import HTTPAdapter, Retry
 import gzip
 # ================= CONFIG =================
-INPUT_CSV = "phytochemicals_turmeric.csv"
+INPUT_CSV = "phytochemicals_curcuma_longa.csv"
 OUTPUT_GZ = "pubchem_results.txt.gz"
 TMP_FILE = "names_only.txt"  # temp file for upload
 PUBCHEM_URL = "https://pubchem.ncbi.nlm.nih.gov/idexchange/idexchange.cgi"
